@@ -1,0 +1,108 @@
+Hilo Productor 1 introduce el valor 9 en la posición 0, Array = [9, 0, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo Productor 2 introduce el valor 3 en la posición 1, Array = [9, 3, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo consumidor, saca el valor 3 de la posición 1, Array = [9, 0, 0, 0, 0, 0, 0, 0, 0, 0], Suma=3
+Hilo Productor 1 introduce el valor 9 en la posición 1, Array = [9, 9, 0, 0, 0, 0, 0, 0, 0, 0], Suma=3
+Hilo Productor 2 introduce el valor 8 en la posición 2, Array = [9, 9, 8, 0, 0, 0, 0, 0, 0, 0], Suma=3
+Hilo consumidor, saca el valor 8 de la posición 2, Array = [9, 9, 0, 0, 0, 0, 0, 0, 0, 0], Suma=11
+Hilo Productor 2 introduce el valor 1 en la posición 2, Array = [9, 9, 1, 0, 0, 0, 0, 0, 0, 0], Suma=11
+Hilo Productor 1 introduce el valor 4 en la posición 3, Array = [9, 9, 1, 4, 0, 0, 0, 0, 0, 0], Suma=11
+Hilo consumidor, saca el valor 4 de la posición 3, Array = [9, 9, 1, 0, 0, 0, 0, 0, 0, 0], Suma=15
+Hilo Productor 2 introduce el valor 5 en la posición 3, Array = [9, 9, 1, 5, 0, 0, 0, 0, 0, 0], Suma=15
+Hilo Productor 1 introduce el valor 7 en la posición 4, Array = [9, 9, 1, 5, 7, 0, 0, 0, 0, 0], Suma=15
+Hilo Productor 2 introduce el valor 3 en la posición 5, Array = [9, 9, 1, 5, 7, 3, 0, 0, 0, 0], Suma=15
+Hilo Productor 1 introduce el valor 10 en la posición 6, Array = [9, 9, 1, 5, 7, 3, 10, 0, 0, 0], Suma=15
+Hilo consumidor, saca el valor 10 de la posición 6, Array = [9, 9, 1, 5, 7, 3, 0, 0, 0, 0], Suma=25
+Hilo Productor 2 introduce el valor 1 en la posición 6, Array = [9, 9, 1, 5, 7, 3, 1, 0, 0, 0], Suma=25
+Hilo Productor 1 introduce el valor 1 en la posición 7, Array = [9, 9, 1, 5, 7, 3, 1, 1, 0, 0], Suma=25
+Hilo consumidor, saca el valor 1 de la posición 7, Array = [9, 9, 1, 5, 7, 3, 1, 0, 0, 0], Suma=26
+Hilo Productor 2 introduce el valor 5 en la posición 7, Array = [9, 9, 1, 5, 7, 3, 1, 5, 0, 0], Suma=26
+Hilo Productor 1 introduce el valor 5 en la posición 8, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=26
+Hilo Productor 2 introduce el valor 6 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 6], Suma=26
+Hilo consumidor, saca el valor 6 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=32
+Hilo Productor 1 introduce el valor 0 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=32
+Hilo consumidor, saca el valor 0 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=32
+Hilo Productor 1 introduce el valor 10 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 10], Suma=32
+Hilo consumidor, saca el valor 10 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=42
+Hilo Productor 1 introduce el valor 3 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 3], Suma=42
+Hilo consumidor, saca el valor 3 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=45
+Hilo Productor 1 introduce el valor 2 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 2], Suma=45
+Hilo consumidor, saca el valor 2 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=47
+Hilo Productor 1 introduce el valor 10 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 10], Suma=47
+Hilo consumidor, saca el valor 10 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=57
+Hilo Productor 1 introduce el valor 5 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 5], Suma=57
+Hilo consumidor, saca el valor 5 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=62
+Hilo Productor 1 introduce el valor 3 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 3], Suma=62
+Hilo consumidor, saca el valor 3 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=65
+Hilo Productor 1 introduce el valor 7 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 7], Suma=65
+Hilo consumidor, saca el valor 7 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=72
+Hilo Productor 1 introduce el valor 9 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 9], Suma=72
+Hilo consumidor, saca el valor 9 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=81
+Hilo Productor 1 introduce el valor 5 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 5], Suma=81
+Hilo consumidor, saca el valor 5 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=86
+Hilo Productor 1 introduce el valor 9 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 9], Suma=86
+Hilo consumidor, saca el valor 9 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=95
+Hilo Productor 1 introduce el valor 8 en la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 8], Suma=95
+Hilo consumidor, saca el valor 8 de la posición 9, Array = [9, 9, 1, 5, 7, 3, 1, 5, 5, 0], Suma=103
+Resultado final: 103
+Hilo Productor 1 introduce el valor 0 en la posición 0, Array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo consumidor, saca el valor 0 de la posición 0, Array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo Productor 2 introduce el valor 5 en la posición 0, Array = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo Productor 2 introduce el valor 7 en la posición 1, Array = [5, 7, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo Productor 1 introduce el valor 0 en la posición 2, Array = [5, 7, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo consumidor, saca el valor 0 de la posición 2, Array = [5, 7, 0, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo Productor 1 introduce el valor 5 en la posición 2, Array = [5, 7, 5, 0, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo Productor 2 introduce el valor 4 en la posición 3, Array = [5, 7, 5, 4, 0, 0, 0, 0, 0, 0], Suma=0
+Hilo consumidor, saca el valor 4 de la posición 3, Array = [5, 7, 5, 0, 0, 0, 0, 0, 0, 0], Suma=4
+Hilo Productor 1 introduce el valor 2 en la posición 3, Array = [5, 7, 5, 2, 0, 0, 0, 0, 0, 0], Suma=4
+Hilo Productor 2 introduce el valor 2 en la posición 4, Array = [5, 7, 5, 2, 2, 0, 0, 0, 0, 0], Suma=4
+Hilo Productor 1 introduce el valor 0 en la posición 5, Array = [5, 7, 5, 2, 2, 0, 0, 0, 0, 0], Suma=4
+Hilo Productor 2 introduce el valor 5 en la posición 6, Array = [5, 7, 5, 2, 2, 0, 5, 0, 0, 0], Suma=4
+Hilo consumidor, saca el valor 5 de la posición 6, Array = [5, 7, 5, 2, 2, 0, 0, 0, 0, 0], Suma=9
+Hilo Productor 2 introduce el valor 3 en la posición 6, Array = [5, 7, 5, 2, 2, 0, 3, 0, 0, 0], Suma=9
+Hilo Productor 1 introduce el valor 1 en la posición 7, Array = [5, 7, 5, 2, 2, 0, 3, 1, 0, 0], Suma=9
+Hilo consumidor, saca el valor 1 de la posición 7, Array = [5, 7, 5, 2, 2, 0, 3, 0, 0, 0], Suma=10
+Hilo Productor 1 introduce el valor 4 en la posición 7, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=10
+Hilo Productor 2 introduce el valor 0 en la posición 8, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=10
+Hilo Productor 2 introduce el valor 1 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 1], Suma=10
+Hilo consumidor, saca el valor 1 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=11
+Hilo Productor 1 introduce el valor 0 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=11
+Hilo consumidor, saca el valor 0 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=11
+Hilo Productor 1 introduce el valor 9 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 9], Suma=11
+Hilo consumidor, saca el valor 9 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=20
+Hilo Productor 1 introduce el valor 3 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 3], Suma=20
+Hilo consumidor, saca el valor 3 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=23
+Hilo Productor 1 introduce el valor 10 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 10], Suma=23
+Hilo consumidor, saca el valor 10 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=33
+Hilo Productor 1 introduce el valor 1 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 1], Suma=33
+Hilo consumidor, saca el valor 1 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=34
+Hilo Productor 1 introduce el valor 3 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 3], Suma=34
+Hilo consumidor, saca el valor 3 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=37
+Hilo Productor 1 introduce el valor 2 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 2], Suma=37
+Hilo consumidor, saca el valor 2 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=39
+Hilo Productor 1 introduce el valor 6 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 6], Suma=39
+Hilo consumidor, saca el valor 6 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=45
+Hilo Productor 1 introduce el valor 3 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 3], Suma=45
+Hilo consumidor, saca el valor 3 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=48
+Hilo Productor 1 introduce el valor 6 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 6], Suma=48
+Hilo consumidor, saca el valor 6 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=54
+Hilo Productor 1 introduce el valor 1 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 1], Suma=54
+Hilo consumidor, saca el valor 1 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=55
+Hilo Productor 1 introduce el valor 3 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 3], Suma=55
+Hilo consumidor, saca el valor 3 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=58
+Hilo Productor 1 introduce el valor 2 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 2], Suma=58
+Hilo consumidor, saca el valor 2 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=60
+Hilo Productor 1 introduce el valor 7 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 7], Suma=60
+Hilo consumidor, saca el valor 7 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=67
+Hilo Productor 1 introduce el valor 4 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 4], Suma=67
+Hilo consumidor, saca el valor 4 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=71
+Hilo Productor 1 introduce el valor 8 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 8], Suma=71
+Hilo consumidor, saca el valor 8 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=79
+Hilo Productor 1 introduce el valor 2 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 2], Suma=79
+Hilo consumidor, saca el valor 2 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=81
+Hilo Productor 1 introduce el valor 4 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 4], Suma=81
+Hilo consumidor, saca el valor 4 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=85
+Hilo Productor 1 introduce el valor 10 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 10], Suma=85
+Hilo consumidor, saca el valor 10 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=95
+Hilo Productor 1 introduce el valor 8 en la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 8], Suma=95
+Hilo consumidor, saca el valor 8 de la posición 9, Array = [5, 7, 5, 2, 2, 0, 3, 4, 0, 0], Suma=103
+Resultado final: 103
